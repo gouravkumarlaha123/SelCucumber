@@ -24,7 +24,7 @@ public class Test1 {
 	@Then("^Title is Google$")
 	public void title_is_Google() throws Throwable {
 	   String aTitle=driver.getTitle();
-	   String eTitle="Google123";
+	   String eTitle="Google";
 	   Assert.assertEquals(eTitle, aTitle);
 	   driver.quit();
 	}
